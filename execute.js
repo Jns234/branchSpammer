@@ -1,6 +1,6 @@
 const { exec } = require("child_process");
 
-for (let i=0 ; i<29; i++){
+for (let i=0 ; i<1000; i++){
 
 exec("git checkout -b"+ i, (error, stdout, stderr) => {
     if (error) {
